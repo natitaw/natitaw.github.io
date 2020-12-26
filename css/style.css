@@ -439,6 +439,47 @@ button:focus {
     text-align: center;
 }
 
+/*===========================
+        X.MY SKILLS
+=============================*/
+
+.skills-boxes {
+    border: 1px solid #2e3135;
+}
+
+.skills-boxes .skills-boxes-icon i {
+    font-size: 44px;
+}
+
+.skills-boxes .skills-title-border {
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    transition: all 0.5s;
+}
+
+.skills-boxes:hover .skills-title-border {
+    width: 60px;
+}
+
+.skills-box {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+}
+
+.skills-boxes h5 {
+    font-weight: 600;
+}
+
+.skills-box .service-content h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skills-box .service-content p {
+    font-size: 15px;
+}
+
 
 /*===========================
         6.SERVICES
