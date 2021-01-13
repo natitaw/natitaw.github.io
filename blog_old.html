@@ -4,13 +4,13 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Editor - Responsive HTML5 Template">
+    <meta name="description" content="My Work">
     <meta name="keywords" content="editor, blog, html5, portfolio">
-    <meta name="author" content="Pixelwars">
+    <meta name="author" content="Nate">
     
     <!-- FAV and TOUCH ICONS -->
     <link rel="shortcut icon" href="images/nate.ico">
-    
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
     
     <title>Nate | Blog</title>
 	
@@ -59,6 +59,23 @@
                 </div>
                 <!-- nav-menu -->
                 
+                <a class="search-toggle toggle-link"></a>
+                                    
+                <!-- search-container -->
+                <div class="search-container">
+                    
+                    <div class="search-box">
+                        <form role="search" method="get" class="search-form" action="#">
+                            <label>Search for
+                                <input type="search" id="search-field" placeholder="type and hit enter" name="s">
+                            </label>
+                            <input type="submit" class="search-submit" value="Search">
+                        </form>
+                    </div>
+                
+                </div>
+                <!-- search-container -->
+                
                 <!-- social-container -->
                 <div class="social-container">
                     
@@ -104,14 +121,14 @@
                 	<div class="layout-medium"> <!-- entry-header -->
                         <header class="entry-header">
                             
-                            <h1 class="entry-title">BLOG</h1>
+                            <h1 class="entry-title">Blog</h1>
                             
                             <!--FILTERS-->
                             <ul id="filters" class="filters">
                               <li class="current"><a href="#" data-filter="*">ALL</a></li>
-                              <li><a href="#" data-filter=".design">BOOKS</a></li>
+                              <li><a href="#" data-filter=".logo">BOOKS</a></li>
                               <li><a href="#" data-filter=".coding">CODING</a></li>
-                              <li><a href="#" data-filter=".logo">MISC</a></li>
+                              <li><a href="#" data-filter=".misc">MISC</a></li>
                             </ul>
                             <!--FILTERS-->
                                 
@@ -126,170 +143,140 @@
                             <!-- PORTFOLIO -->
                             <div class="portfolio media-grid masonry" data-layout="masonry" data-item-width="360">
                               
-                                <!-- portfolio-item -->  
-                              <div class="media-cell coding hentry">
-                                
-                                <div class="media-box">
-                                    <p>&nbsp;</p>
-                                    <img src="blog_images/data_science_process.png" alt="book">
-                                    <div class="mask"></div>
-                                    <a href="blog_items/the_data_science_process.html"></a>
-                                </div>
-                                
-                                <div class="media-cell-desc">
-                                    <h3>The Entire Data Science Process</h3>
-                                    <p class="category">Made with PyTorch</p>
-                                    <p>&nbsp;</p>
-                                    <p>&nbsp;</p>
-                                </div>
-                                
-                              </div>
-                              <!-- portfolio-item --> 
 
-                              <!-- portfolio-item -->  
-                              <div class="media-cell coding hentry">
+                            <!-- portfolio-item 1 --> 
+
+                            <div class="media-cell logo hentry">
+                                  
                                 
-                                <div class="media-box">
-                                    <p>&nbsp;</p>
-                                    <img src="blog_items/1D Convs/1d_conv.png" alt="book">
+                                <div class="book">
+                                   
+                                    <div class="media-box">
+
+                                    <img src="blog_items/1D Convs/kernel_conv.png" alt="book">
+                                    
                                     <div class="mask"></div>
                                     <a href="blog_items/1D Convs/1d_convs.html"></a>
-                                </div>
+                                    </div>
+                                </div>  
+                                    <h4>1D Convolutional Networks<span></span></h4>
                                 
-                                <div class="media-cell-desc">
-                                    <h3>1D Convolutions</h3>
-                                    <p class="category">How do 1D convolutions work?</p>
-                                    <p>&nbsp;</p>
-                                    <p>&nbsp;</p>
+                              </div>
+
+                              <div class="media-cell logo hentry">
+                                  
+                                
+                                <div class="book">
+                                   
+                                    <div class="media-box">
+
+                                    <img src="blog_images/human_kind.jpg" alt="book">
+                                    
+                                    <div class="mask"></div>
+                                    <a href="blog_items/blog-single.html"></a>
+                                    </div>
                                 </div>
+                                    <h4>Humankind: <span>a new history of human nature</span></h4>
+                                
+                              </div>
+
+
+                              
+                              
+                              
+                              <!-- portfolio-item --> 
+                              <div class="media-cell logo hentry">
+                                  
+                                
+                                <div class="book">
+                                   
+                                    <div class="media-box">
+
+                                    <img src="blog_images/beherenow.jpg" alt="book">
+                                    
+                                    <div class="mask"></div>
+                                    <a href="blog_items/be_here_now.html"></a>
+                                    </div>
+                                </div>
+                                    <h4>Be Here Now<span></span></h4>
+                            
+                              </div>
+
+                              
+
+                              <!-- portfolio-item -->
+                              <div class="media-cell logo hentry">
+                                  
+                                
+                                <div class="book">
+                                   
+                                    <div class="media-box">
+
+                                    <img src="blog_images/big_leap.jpg" alt="book">
+                                    
+                                    <div class="mask"></div>
+                                    <a href="blog_items/big_leap.html"></a>
+                                    </div>
+                                </div>
+                                    <h4>Be Here Now<span></span></h4>
+                                
+                              </div>
+
+                              <div class="media-cell logo hentry">
+                                  
+                                
+                                <div class="book">
+                                   
+                                    <div class="media-box">
+
+                                    <img src="blog_images/feynman.jpg" alt="book">
+                                    
+                                    <div class="mask"></div>
+                                    <a href="blog_items/what_other_think.html"></a>
+                                    </div>
+                                </div>  
+                                    <h4>What Do You Care What Other People Think? <span>Further Adventures of a Curious Character</span></h4>
+                                
+                              </div>
+
+                              <!-- portfolio-item --> 
+                              <div class="media-cell logo hentry">
+                                  
+                                
+                                <div class="book">
+                                   
+                                    <div class="media-box">
+
+                                    <img src="blog_images/whatislife.jpg" alt="book">
+                                    
+                                    <div class="mask"></div>
+                                    <a href="blog_items/whatislife.html"></a>
+                                    </div>
+                                </div>  
+                                    <h4>What is Life? <span></span></h4>
                                 
                               </div>
                               <!-- portfolio-item --> 
-                              
-                              <!-- portfolio-item -->  
-                              <div class="media-cell design hentry">
-                                <div class="media-box">
+                              <!-- portfolio-item --> 
+                              <div class="media-cell logo hentry">
+                                  
+                                
                                 <div class="book">
+                                   
+                                    <div class="media-box">
+
                                     <img src="blog_images/construction_of_reality.jpg" alt="book">
+                                    
                                     <div class="mask"></div>
                                     <a href="blog_items/constr_of_reality.html"></a>
-                                </div>
-                                <div class="media-cell-desc">
-                                    <p>&nbsp;</p> 
-                                    <h3>The Social Construction of Reality</h3>
-                                    <p class="category">A Treatise in the Sociology of Knowledge</p>
-                                </div>
-                                </div>
-                            </div>
-                              <!-- portfolio-item --> 
-                            
-                            <!-- portfolio-item -->  
-                            <div class="media-cell design hentry">
-                                <div class="media-box">
-                                <div class="book">
-                                    <img src="blog_images/human_kind.jpg" alt="book">
-                                    <div class="mask"></div>
-                                    <a href="blog_items/humankind.html"></a>
-                                </div>
-                                <div class="media-cell-desc">
-                                    <p>&nbsp;</p> 
-                                    <h3>Humankind</h3>
-                                    <p class="category">A new history of human nature</p>
-                                </div>
-                                </div>
-                            </div>
-                            <!-- portfolio-item --> 
+                                    </div>
+                                </div>  
+                                    <h4>The Social Construction of Reality: <span> A Treatise in the Sociology of Knowledge</span></h4>
+                                
+                              </div>
 
-
-                            <!-- portfolio-item -->  
-                            <div class="media-cell design hentry">
-                                <div class="media-box">
-                                <div class="book">
-                                    <img src="blog_images/geb.jpg" alt="book">
-                                    <div class="mask"></div>
-                                    <a href="blog_items/Gödel, Escher, Bach: An Eternal Golden BraidHTML.html"></a>
-                                </div>
-                                <div class="media-cell-desc">
-                                    <p>&nbsp;</p> 
-                                    <h3>Gödel, Escher, Bach</h3>
-                                    <p class="category">An Eternal Golden Braid</p>
-                                </div>
-                                </div>
-                            </div>
-                            <!-- portfolio-item -->
                               
-                            <!-- portfolio-item -->  
-                            <div class="media-cell design hentry">
-                                <div class="media-box">
-                                <div class="book">
-                                    <img src="blog_images/whatislife.jpg" alt="book">
-                                    <div class="mask"></div>
-                                    <a href="blog_items/whatislife.html"></a>
-                                </div>
-                                <div class="media-cell-desc">
-                                    <p>&nbsp;</p> 
-                                    <h3>What is Life?</h3>
-                                    <p class="category"></p>
-                                </div>
-                                </div>
-                            </div>
-                            <!-- portfolio-item -->
                               
-                            <!-- portfolio-item -->  
-                            <div class="media-cell design hentry">
-                                <div class="media-box">
-                                <div class="book">
-                                    <img src="blog_images/big_leap.jpg" alt="book">
-                                    <div class="mask"></div>
-                                    <a href="blog_items/big_leap.html"></a>
-                                </div>
-                                <div class="media-cell-desc">
-                                    <p>&nbsp;</p> 
-                                    <h3>The Big Leap</h3>
-                                    <p class="category">Take Life to the Next Level</p>
-                                </div>
-                                </div>
-                            </div>
-                            <!-- portfolio-item -->
-
-                            <!-- portfolio-item -->  
-                            <div class="media-cell design hentry">
-                                <div class="media-box">
-                                <div class="book">
-                                    <img src="blog_images/feynman.jpg" alt="book">
-                                    <div class="mask"></div>
-                                    <a href="blog_items/what_other_think.html"></a>
-                                </div>
-                                <div class="media-cell-desc">
-                                    <p>&nbsp;</p> 
-                                    <h3>What do you care what other people think?</h3>
-                                    <p class="category"></p>
-                                </div>
-                                </div>
-                            </div>
-                            <!-- portfolio-item -->
-                              
-
-                            <!-- portfolio-item -->  
-                            <div class="media-cell design hentry">
-                                <div class="media-box">
-                                <div class="book">
-                                    <img src="blog_images/beherenow.jpg" alt="book">
-                                    <div class="mask"></div>
-                                    <a href="blog_items/be_here_now.html"></a>
-                                </div>
-                                <div class="media-cell-desc">
-                                    <p>&nbsp;</p> 
-                                    <h3>Be Here Now</h3>
-                                    <p class="category"></p>
-                                </div>
-                                </div>
-                            </div>
-                            <!-- portfolio-item -->
-
-                            
-                            </div>
-                            <!-- PORTFOLIO -->
                         
                         
                         </div>    
