@@ -727,3 +727,15 @@ button:focus {
         bottom: -5px;
     }
 }
+
+.avatar {
+    vertical-align: center;
+    width: 450px;
+    border-radius: 100%;
+  }
+
+  .normative {
+    vertical-align: center;
+    width: 950px;
+    border-radius: 100%;
+  }
