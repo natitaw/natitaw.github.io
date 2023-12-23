@@ -730,8 +730,10 @@ button:focus {
 
 .avatar {
     vertical-align: center;
-    width: 450px;
-    border-radius: 100%;
+    align-self: center;
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
   }
 
   .normative {
@@ -744,4 +746,12 @@ button:focus {
   .element {
     font-size: 30px; /* Adjust the size as needed */
     /* other existing styles */
+}
+
+
+.centered-and-raised {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px; /* Adjust this value to raise the image higher */
 }
